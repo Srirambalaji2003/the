@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Tourist Destination</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <h2>Welcome to Tourist Destination</h2>
+        <p>Discover amazing places to visit and explore.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <img src="destination1.jpg" alt="Destination 1">
+            <h3>Destination 1</h3>
+            <p>Description of destination 1.</p>
+        </div>
+        <div class="destination">
+            <img src="destination2.jpg" alt="Destination 2">
+            <h3>Destination 2</h3>
+            <p>Description of destination 2.</p>
+        </div>
+        <!-- Add more destinations as needed -->
+    </section>
+
+    <section id="tours">
+        <h2>Featured Tours</h2>
+        <div class="tour">
+            <img src="tour1.jpg" alt="Tour 1">
+            <h3>Tour 1</h3>
+            <p>Description of tour 1.</p>
+        </div>
+        <div class="tour">
+            <img src="tour2.jpg" alt="Tour 2">
+            <h3>Tour 2</h3>
+            <p>Description of tour 2.</p>
+        </div>
+        <!-- Add more tours as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This section can contain information about the tourist website, its mission, and goals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>This section can include contact information for the tourist website.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; [Year] Tourist Destination. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    background-image: url('tourist-hero.jpg'); /* Replace with actual image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#destinations, #tours, #about, #contact {
+    margin-top: 40px;
+}
+
+.destination, .tour {
+    margin-bottom: 20px;
+}
+
+.destination img, .tour img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
